@@ -19,7 +19,10 @@ document.createElement creates an Element node
 element.id sets or returns the identifier of an element
 element.innerHTML sets or returns the HTML element content of an element
 node.appendChild() is a method that appends a node as the last child of a node*/
-
+var catBox = document.createElement("div");
+catBox.id="meow";
+catBox.innerHTML = "Overcome my fear of cucumbers!";
+bigBox.appendChild(catBox);
 
 
 //Exercise 2
